@@ -17,5 +17,6 @@
 		<li>${ client.adresse.codePostal } - ${ client.adresse.ville }</li>
 		<li>${ client.adresse.pays }</li>
 	</ul>
+	<p><a href="VueClients">Retour liste clients</a></p>
 </body>
 </html>
