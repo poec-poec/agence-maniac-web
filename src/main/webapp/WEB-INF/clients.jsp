@@ -8,6 +8,6 @@
 <title>Maniac - Client</title>
 </head>
 <body>
-	<h1>Détails Client <c:out value="${ client.id }" /> : ${ client.prenom } ${ client.nom }</h1>
+	<h1>Liste des clients</h1>
 </body>
 </html>

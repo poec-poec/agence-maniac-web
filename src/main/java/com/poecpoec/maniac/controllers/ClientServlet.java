@@ -16,7 +16,7 @@ import com.poecpoec.agence.model.Client;
 /**
  * Servlet implementation class ClientServlet
  */
-@WebServlet(urlPatterns={"/client"})
+@WebServlet(urlPatterns={"/VueClients"})
 public class ClientServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
