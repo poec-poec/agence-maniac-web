@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,5 +8,14 @@
 </head>
 <body>
 	<h1>Détails Client <c:out value="${ client.id }" /> : ${ client.prenom } ${ client.nom }</h1>
+	<p>Adresse e-mail : ${ client.email }</p>
+	<p>Numéro téléphone : ${ client.numeroTel }</p>
+	<p>Numéro Fax : ${ client.numeroFax }</p>
+	<p>Adresse :</p>
+	<ul>
+		<li>${ client.adresse.adresse }</li>
+		<li>${ client.adresse.codePostal } - ${ client.adresse.ville }</li>
+		<li>${ client.adresse.pays }</li>
+	</ul>
 </body>
 </html>
